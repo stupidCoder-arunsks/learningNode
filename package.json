@@ -1,0 +1,25 @@
+{
+  "name": "learningnode",
+  "version": "1.0.0",
+  "description": "Learning node",
+  "main": "first-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start-server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stupidCoder-arunsks/learningNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stupidCoder-arunsks/learningNode/issues"
+  },
+  "homepage": "https://github.com/stupidCoder-arunsks/learningNode#readme",
+  "devDependencies": {
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -2,13 +2,13 @@ const fs = require('fs');
 var data = [];
 var count = 0;
 
-
-
 const requestHandler = (req,res) => {
+
+  console.log("Entering inside the function..");
 
     const reqUrl = req.url;
     const method = req.method;
-  
+
     if (reqUrl === '/') {
       console.log('count >>>> ' , count++);
       res.setHeader('Content-Type', 'text/html');
