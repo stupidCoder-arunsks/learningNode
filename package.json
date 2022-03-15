@@ -5,8 +5,8 @@
   "main": "first-app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "start-server": "node server.js"
+    "start": "nodemon chatServer.js",
+    "start-server": "node chatServer.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "body-parser": "^1.19.2",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "node-localstorage": "^2.2.1"
   }
 }
